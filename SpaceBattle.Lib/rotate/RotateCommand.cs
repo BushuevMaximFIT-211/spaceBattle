@@ -1,12 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+namespace SpaceBattle.Lib;
 
-namespace SpaceBattle.Lib.rotate
+public class RotateCommand : ICommand
 {
-    public class RotateCommand
+    private IRotatable obj;
+    public RotateCommand(IRotatable obj)
     {
-        
+        this.obj = obj;
+    }
+
+    public void Execute()
+    {
+        obj.angle += obj.angularVelocity;
     }
 }

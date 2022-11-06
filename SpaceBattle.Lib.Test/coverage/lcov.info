@@ -1,0 +1,92 @@
+SF:/home/max/spaceBattle/SpaceBattle.Lib/Angle.cs
+FN:4,System.Int32 SpaceBattle.Lib.Angle::get_numerator()
+FNDA:36,System.Int32 SpaceBattle.Lib.Angle::get_numerator()
+DA:5,36
+FN:5,System.Int32 SpaceBattle.Lib.Angle::get_denominator()
+FNDA:42,System.Int32 SpaceBattle.Lib.Angle::get_denominator()
+DA:6,42
+FN:19,System.Int32 SpaceBattle.Lib.Angle::NOD(System.Int32,System.Int32)
+FNDA:24,System.Int32 SpaceBattle.Lib.Angle::NOD(System.Int32,System.Int32)
+DA:20,24
+DA:21,1935
+DA:22,1911
+DA:23,1911
+DA:24,1911
+DA:26,0
+DA:27,1911
+DA:28,24
+DA:29,24
+BRDA:21,34,1,1911
+BRDA:23,10,0,1911
+BRDA:23,10,1,0
+BRDA:21,34,0,24
+FN:32,System.String SpaceBattle.Lib.Angle::ToString()
+FNDA:0,System.String SpaceBattle.Lib.Angle::ToString()
+DA:33,0
+DA:34,0
+DA:35,0
+FN:37,SpaceBattle.Lib.Angle SpaceBattle.Lib.Angle::op_Addition(SpaceBattle.Lib.Angle,SpaceBattle.Lib.Angle)
+FNDA:4,SpaceBattle.Lib.Angle SpaceBattle.Lib.Angle::op_Addition(SpaceBattle.Lib.Angle,SpaceBattle.Lib.Angle)
+DA:38,4
+DA:39,4
+DA:40,4
+DA:41,4
+DA:42,4
+DA:43,4
+FN:44,System.Boolean SpaceBattle.Lib.Angle::op_Equality(SpaceBattle.Lib.Angle,SpaceBattle.Lib.Angle)
+FNDA:1,System.Boolean SpaceBattle.Lib.Angle::op_Equality(SpaceBattle.Lib.Angle,SpaceBattle.Lib.Angle)
+DA:45,1
+BRDA:45,12,0,0
+BRDA:45,12,1,1
+FN:46,System.Boolean SpaceBattle.Lib.Angle::op_Inequality(SpaceBattle.Lib.Angle,SpaceBattle.Lib.Angle)
+FNDA:0,System.Boolean SpaceBattle.Lib.Angle::op_Inequality(SpaceBattle.Lib.Angle,SpaceBattle.Lib.Angle)
+DA:47,0
+FN:48,System.Boolean SpaceBattle.Lib.Angle::Equals(System.Object)
+FNDA:3,System.Boolean SpaceBattle.Lib.Angle::Equals(System.Object)
+DA:49,3
+BRDA:49,8,0,3
+BRDA:49,22,0,3
+BRDA:49,8,1,0
+BRDA:49,22,1,0
+FN:50,System.Int32 SpaceBattle.Lib.Angle::GetHashCode()
+FNDA:0,System.Int32 SpaceBattle.Lib.Angle::GetHashCode()
+DA:51,0
+FN:7,System.Void SpaceBattle.Lib.Angle::.ctor(System.Int32,System.Int32)
+FNDA:21,System.Void SpaceBattle.Lib.Angle::.ctor(System.Int32,System.Int32)
+DA:8,21
+DA:9,21
+DA:10,21
+DA:11,1
+DA:12,1
+DA:15,20
+DA:16,20
+DA:17,20
+DA:18,20
+BRDA:10,14,0,1
+BRDA:10,14,1,20
+LF:33
+LH:27
+BRF:12
+BRH:8
+FNF:10
+FNH:7
+end_of_record
+SF:/home/max/spaceBattle/SpaceBattle.Lib/rotate/RotateCommand.cs
+FN:11,System.Void SpaceBattle.Lib.RotateCommand::Execute()
+FNDA:4,System.Void SpaceBattle.Lib.RotateCommand::Execute()
+DA:12,4
+DA:13,4
+DA:14,1
+FN:5,System.Void SpaceBattle.Lib.RotateCommand::.ctor(SpaceBattle.Lib.IRotatable)
+FNDA:4,System.Void SpaceBattle.Lib.RotateCommand::.ctor(SpaceBattle.Lib.IRotatable)
+DA:6,4
+DA:7,4
+DA:8,4
+DA:9,4
+LF:7
+LH:7
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record

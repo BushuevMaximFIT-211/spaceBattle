@@ -26,12 +26,4 @@ jobs:
         uses: codecov/codecov-action@v3
         with: 
           files: SpaceBattle.Lib.Test/coverage/coverage.opencover.xml
-      - name: Create Test Coverage Badge
-        uses: simon-k/dotnet-code-coverage-badge@v1.0.0
-        id: create_coverage_badge
-        with:
-          label: Unit Test Coverage
-          color: brightgreen
-          path: SpaceBattle.Lib.Test/coverage/coverage.opencover.xml
-      - name: Print code coverage
-        run: echo "Code coverage percentage ${{steps.create_coverage_badge.outputs.percentage}}%"
+      

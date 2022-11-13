@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="37" visitedSequencePoints="37" numBranchPoints="12" visitedBranchPoints="12" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="19" minCyclomaticComplexity="19" visitedClasses="2" numClasses="2" visitedMethods="11" numMethods="11" />
   <Modules>
-    <Module hash="E62997FD-3260-42C3-93A2-40B40F9A49D6">
+    <Module hash="8B8EFF89-84B8-4792-A8B9-0B2E915CE303">
       <ModulePath>SpaceBattle.Lib.dll</ModulePath>
-      <ModuleTime>2022-11-13T08:48:01</ModuleTime>
+      <ModuleTime>2022-11-13T08:49:40</ModuleTime>
       <ModuleName>SpaceBattle.Lib</ModuleName>
       <Files>
         <File uid="1" fullPath="/home/max/spaceBattle/SpaceBattle.Lib/Angle.cs" />

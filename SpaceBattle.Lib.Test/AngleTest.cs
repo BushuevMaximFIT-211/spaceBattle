@@ -28,13 +28,7 @@ public class AngleTest
 
     }
 
-    public void NotEqual()
-    {
-        Angle a = new Angle(45, 1);
-        Angle b = new Angle(90, 2);
-        Assert.True(a + b != new Angle(90, 2));
 
-    }
 
     [Fact]
     public void DivizionByZeroException()

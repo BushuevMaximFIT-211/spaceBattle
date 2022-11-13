@@ -42,5 +42,5 @@ public class Angle
 
     public override bool Equals(object? obj) => obj is Angle a && this.numerator == a.numerator && this.denominator == a.denominator;
 
-    public override int GetHashCode() => (this.numerator + this.denominator.ToString() ).GetHashCode();
+    public override int GetHashCode() => ((this.numerator + this.denominator).ToString() ).GetHashCode();
 }

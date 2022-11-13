@@ -76,6 +76,14 @@ public class AngleTest
         Assert.Equal(1, nod);
     }
     
+       [Fact]
+    public void NegEquel()
+    {
+        Angle a = new Angle(45, 1);
+        Angle b = new Angle(90, 2);
+        Assert.False(a != b);
+    }
+    
    
 
 

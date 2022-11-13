@@ -87,8 +87,7 @@ public class AngleTest
     public void PosEquel()
     {
         Angle a = new Angle(45, 1);
-        Angle b = new Angle(90, 2);
-        Assert.True(a.Equals(b));
+        Assert.False(a.Equals("String"));
     }
     
    

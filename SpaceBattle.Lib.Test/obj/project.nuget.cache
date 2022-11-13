@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1/3ySli81R6lb6vkEpLG8Jjt05bObJ6l8Ebdqqt7SDTUaxIWGXWVVF3w85blzFbdLNy7tTDgvI/O2iC2y2qcTg==",
+  "dgSpecHash": "kVCmSVXiUHIHT5lIhq4dOshRUgp6QiHBBmkZI169e/I37tqBo4SDpJGJzCvqoK1WMK7841+aRqYgmCZzUi6HYw==",
   "success": true,
   "projectFilePath": "/home/max/spaceBattle/SpaceBattle.Lib.Test/SpaceBattle.Lib.Test.csproj",
   "expectedPackageFiles": [
     "/home/max/.nuget/packages/castle.core/5.1.0/castle.core.5.1.0.nupkg.sha512",
-    "/home/max/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
+    "/home/max/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
     "/home/max/.nuget/packages/coverlet.msbuild/3.2.0/coverlet.msbuild.3.2.0.nupkg.sha512",
     "/home/max/.nuget/packages/microsoft.codecoverage/17.1.0/microsoft.codecoverage.17.1.0.nupkg.sha512",
     "/home/max/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",

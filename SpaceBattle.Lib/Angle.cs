@@ -28,12 +28,6 @@ public class Angle
             return x;
     }
     
-
-    public override string ToString()
-    {
-        return String.Format("[Rational: {0}/{1}]", this.numerator, this.denominator);
-    }
-
     public static Angle operator +(Angle a, Angle b)
     {
         int num = a.numerator * b.denominator + b.numerator * a.denominator;
@@ -48,10 +42,5 @@ public class Angle
 
     public override bool Equals(object? obj) => obj is Angle a && this.numerator == a.numerator && this.denominator == a.denominator;
 
-    public override int GetHashCode() => (this.ToString()).GetHashCode();
-
-
-
-
-
+    public override int GetHashCode() => (this.numerator + this.denominator.ToString() ).GetHashCode();
 }

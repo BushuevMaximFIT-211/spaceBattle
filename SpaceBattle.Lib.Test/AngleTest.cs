@@ -14,9 +14,9 @@ public class AngleTest
     [Fact]
     public void PositivSum()
     {
-        Angle a = new Angle(45, 1);
-        Angle b = new Angle(90, 2);
-        Assert.Equal(a + b, new Angle(90, 1));
+        Angle a = new Angle(45, 90);
+        Angle b = new Angle(45, 90);
+        Assert.Equal(new Angle(1, 1),a + b);
 
     }   
     [Fact]
@@ -28,12 +28,58 @@ public class AngleTest
 
     }
 
+    public void NotEqual()
+    {
+        Angle a = new Angle(45, 1);
+        Angle b = new Angle(90, 2);
+        Assert.True(a + b != new Angle(90, 2));
+
+    }
+
     [Fact]
     public void DivizionByZeroException()
     {
         Assert.Throws<Exception>(()=> new Angle(99,0)); 
 
     }
+
+     [Fact]
+    public void CheckHashCode()
+    {
+        Angle a = new Angle(45, 1);
+        Angle b = new Angle(90, 2);
+        Assert.True(a.GetHashCode() == b.GetHashCode());
+    }
+    
+       [Fact]
+    public void CheckHashCodeNeg()
+    {
+        Angle a = new Angle(42, 1);
+        Angle b = new Angle(90, 2);
+        Assert.True(a.GetHashCode() != b.GetHashCode());
+    }
+    
+    [Fact]
+    public void SumResult()
+    {
+        Angle a = new Angle(45, 1);
+        Angle b = new Angle(90, 2);
+        Angle c  = a + b;
+        Assert.Equal(c,a + b);
+
+    }
+
+    [Fact]
+    public void CheckNOD()
+    {
+        int nod = Angle.NOD(4, 5);
+        Assert.Equal(1, nod);
+    }
+    
+   
+
+
+
 
 
 

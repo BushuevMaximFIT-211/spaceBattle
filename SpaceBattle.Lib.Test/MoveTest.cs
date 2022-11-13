@@ -37,7 +37,7 @@ public class UnitTest1
         Assert.Throws<Exception>(() => c.Execute());
     }
 
-     [Fact]
+    [Fact]
     public void TestNegativeSetPos()
     {
         Mock<IMovable> movableMock = new Mock<IMovable>();

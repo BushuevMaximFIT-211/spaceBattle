@@ -68,6 +68,7 @@ public class VectorTest
         Vector v2 = new Vector(3, 4);
         Assert.True(v1!=v2);
     }
+    
     [Fact]
     public void TestNegativeNotEquality()
     {
@@ -90,4 +91,12 @@ public class VectorTest
         Assert.False(v1.Equals(new Vector(2, 3)));
     }
 
+    [Fact]
+    public void HashCode()
+    {
+        Vector v1 = new Vector(1, 1);
+        Vector v2 = new Vector(1, 1);
+        
+        Assert.Equal(v1.GetHashCode(),v2.GetHashCode());
+    }
 }

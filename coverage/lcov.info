@@ -75,10 +75,10 @@ DA:47,2
 DA:48,2
 DA:49,2
 FN:50,System.Boolean SpaceBattle.Lib.Vector::Equals(System.Object)
-FNDA:5,System.Boolean SpaceBattle.Lib.Vector::Equals(System.Object)
-DA:51,5
+FNDA:6,System.Boolean SpaceBattle.Lib.Vector::Equals(System.Object)
+DA:51,6
 BRDA:51,8,0,5
-BRDA:51,8,1,0
+BRDA:51,8,1,1
 FN:52,System.Int32 SpaceBattle.Lib.Vector::GetHashCode()
 FNDA:2,System.Int32 SpaceBattle.Lib.Vector::GetHashCode()
 DA:53,2
@@ -91,16 +91,16 @@ DA:60,2
 BRDA:55,51,1,4
 BRDA:55,51,0,2
 FN:5,System.Void SpaceBattle.Lib.Vector::.ctor(System.Int32[])
-FNDA:37,System.Void SpaceBattle.Lib.Vector::.ctor(System.Int32[])
-DA:6,37
-DA:7,74
-DA:8,37
-DA:9,37
-DA:10,37
+FNDA:38,System.Void SpaceBattle.Lib.Vector::.ctor(System.Int32[])
+DA:6,38
+DA:7,76
+DA:8,38
+DA:9,38
+DA:10,38
 LF:45
 LH:45
 BRF:18
-BRH:17
+BRH:18
 FNF:8
 FNH:8
 end_of_record

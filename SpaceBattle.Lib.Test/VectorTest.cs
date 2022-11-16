@@ -92,6 +92,14 @@ public class VectorTest
     }
 
     [Fact]
+    public void TestNegativeEquals2()
+    {
+        Vector v1 = new Vector(1, 2);
+        int n = 1;
+        Assert.False(v1.Equals(n));
+    }
+
+    [Fact]
     public void HashCode()
     {
         Vector v1 = new Vector(1, 1);
